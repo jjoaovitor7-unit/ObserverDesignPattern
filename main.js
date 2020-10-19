@@ -54,15 +54,15 @@ let subject = new Subject();
 ///////////////////
 
 
-///// Observers/////
-let obs1 = new Observer();
-let obs2 = new Observer();
-////////////////////////
+///// Observers /////
+let observador1 = new Observer();
+let observador2 = new Observer();
+/////////////////////
 
 
 // adicionando observadores
-subject.addObserver(obs1);
-subject.addObserver(obs2);
+subject.addObserver(observador1);
+subject.addObserver(observador2);
 
 
 // notificar todos os observadores
